@@ -1,0 +1,30 @@
+/* *{
+    background-color: red;
+} */
+    ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    height: 36px;
+    background-color: #000;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 13px;
+    line-height: 36px;
+}
+li{
+    float: left;
+    border-right: 1px #156ee2;
+}
+a{
+    display: block;
+     /* padding top bottom 0 px and left right 28px */
+    padding: 0 28px;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #156ee2;
+}
+.active a{
+    background-color: #156ee2;
+}
